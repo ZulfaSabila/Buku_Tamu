@@ -2,8 +2,7 @@
 $host = 'localhost';
 $user = 'root';
 $password = '';
-$dbname = 'buku_tamu'; // Atau 'buku_tamu' jika Anda menggunakan database terpisah
-
+$dbname = 'buku_tamu'; 
 $conn = new mysqli($host, $user, $password, $dbname);
 
 if ($conn->connect_error) {

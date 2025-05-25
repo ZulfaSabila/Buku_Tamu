@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
   <title>Buku Tamu</title>
-  <link href="style.css" rel="stylesheet"> <!-- Menggunakan CSS lokal, bukan Bootstrap -->
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <div class="container-custom">
